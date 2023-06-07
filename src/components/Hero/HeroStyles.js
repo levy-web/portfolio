@@ -23,21 +23,19 @@ export const Typediv = styled.div`
 
 `
 
-export const Button = styled.button`
-  height:20px;
-  background:#00FFFF;
+export const Button = styled.div`
+  border-radius: 25px;
+  display:inline-block;
+  color:#444;
+  border:1px solid #CCC;
+  background:#00FF00;;
+  box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+  cursor:pointer;
+  vertical-align:middle;
+  max-width: 200px;
+  padding: 20px;
+  text-align: center;
 
 
 `
-export const SocialIcons = styled.a`
-transition: 0.3s ease;
-color: white;
-border-radius: 50px;
-  padding: 8px;
-&:hover {
-    background-color: #212d45;
-    transform: scale(1.2);
-    cursor: pointer;
-    
-  }
-`
+

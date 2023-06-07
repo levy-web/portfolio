@@ -2,8 +2,7 @@ import React from 'react';
 import Typed from 'react-typed'
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection, Typediv } from './HeroStyles';
+import { LeftSection, Typediv, Button } from './HeroStyles';
 
 function Hero() {
   const openWhatsApp = () => {
