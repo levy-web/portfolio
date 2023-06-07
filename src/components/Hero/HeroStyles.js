@@ -23,16 +23,6 @@ export const Typediv = styled.div`
   color:#00FFFF;
 
 `
-export const Anim = styled.div`
-  display:none;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    display:block;
-    height:50%
-  }
-  
-
-`
-
 
 export const Button = styled.div`
   border-radius: 25px;
@@ -42,6 +32,19 @@ export const Button = styled.div`
   max-width: 200px;
   padding: 20px;
   text-align: center;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    border-radius: 25px;
+    color:#444;
+    background:#00FF00;;
+    cursor:pointer;
+    max-width: 200px;
+    padding: 20px;
+    text-align: center;
+    margin:auto;
+    margin-top:100px;
+
+  }
 
 
 `
