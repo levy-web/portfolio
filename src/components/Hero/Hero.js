@@ -40,7 +40,9 @@ function Hero() {
           />
         </Typediv>
       </SectionText>
-      <Button onClick={openWhatsApp}> whatsapp </Button>
+      <div>
+        <Button onClick={openWhatsApp}> whatsapp </Button>
+      </div>
     </LeftSection>
   </Section>
 );

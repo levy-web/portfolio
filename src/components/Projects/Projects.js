@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ReactPaginate from 'react-paginate';
 
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img, Paginate } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
@@ -50,6 +50,7 @@ function Projects(){
 
       ))}
     </GridContainer>
+    <Paginate>
     <ReactPaginate
           breakLabel="..."
           nextLabel="next >"
@@ -64,6 +65,7 @@ function Projects(){
           disabledClassName={"paginationDisabled"}
           activeClassName={"paginatonActive"}
         />
+        </Paginate>
 
   </Section>
 

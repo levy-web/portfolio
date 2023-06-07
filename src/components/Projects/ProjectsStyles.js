@@ -110,3 +110,9 @@ export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
 `
+
+export const Paginate = styled.div`
+  margin-top:15px;
+
+
+`
