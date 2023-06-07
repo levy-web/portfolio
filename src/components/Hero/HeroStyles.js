@@ -4,6 +4,7 @@ export const LeftSection = styled.div`
   width: 100%;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 80%;
+    height:80vh;
     display: flex;
     flex-direction: column;
 
@@ -22,6 +23,16 @@ export const Typediv = styled.div`
   color:#00FFFF;
 
 `
+export const Anim = styled.div`
+  display:none;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    display:block;
+    height:50%
+  }
+  
+
+`
+
 
 export const Button = styled.div`
   border-radius: 25px;

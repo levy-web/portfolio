@@ -1,8 +1,9 @@
 import React from 'react';
 import Typed from 'react-typed'
+import BgAnimation from '../BackgrooundAnimation/BackgroundAnimation';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { LeftSection, Typediv, Button } from './HeroStyles';
+import { LeftSection, Typediv, Button, Anim } from './HeroStyles';
 
 function Hero() {
   const openWhatsApp = () => {
@@ -40,6 +41,9 @@ function Hero() {
           />
         </Typediv>
       </SectionText>
+      <Anim>
+      <BgAnimation />
+      </Anim>
       <div>
         <Button onClick={openWhatsApp}> whatsapp </Button>
       </div>
