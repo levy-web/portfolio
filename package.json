@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next dev",
     "build": "next build && next export",
     "start": "next start"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
+    "cross-env": "^7.0.3",
     "emailjs": "^4.0.2",
     "next": "10.2.3",
     "react": "17.0.2",
