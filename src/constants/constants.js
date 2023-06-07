@@ -17,7 +17,7 @@ export const projects = [
     tags: ["nextjs", "saas", "css", "tailwind", "graphql"],
     image: "/images/tripguide.png",
     source: "https://github.com/levy-web/blogmiini",
-    visit: 'https://google.com',
+    visit: 'https://trues-three.vercel.app',
   },
   {
     id: 1,
