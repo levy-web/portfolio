@@ -11,7 +11,7 @@ import styled from "styled-components"
 // `;
 
 export const StyledForm = styled.form`
-  background-color: #f4f4f4;
+  background-color: #0f1624;
   padding: 20px;
   border-radius: 5px;
 `
@@ -20,7 +20,7 @@ export const StyledLabel = styled.label`
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
-  color: ${props => props.invalid ? 'red' : 'black'};
+  color: ${props => props.invalid ? 'red' : 'white'};
 `
 
 export const StyledInput = styled.input`

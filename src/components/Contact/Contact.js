@@ -65,7 +65,6 @@ const Contact = () => {
 
   return (
     <Section>
-        <p>Get in touch</p>
         <SectionTitle >Contact.</SectionTitle>
 
         <StyledForm
@@ -73,7 +72,7 @@ const Contact = () => {
           onSubmit={handleSubmit}
         >
           <label>
-            <StyledLabel className='text-white font-medium'>Your Name</StyledLabel>
+            <StyledLabel>Your Name</StyledLabel>
             <StyledInput
               type='text'
               name='name'
@@ -84,7 +83,7 @@ const Contact = () => {
             /><br/>
           </label><br/>
           <label>
-            <StyledLabel className='text-white font-medium mb-4'>Your email</StyledLabel>
+            <StyledLabel >Your email</StyledLabel>
             <StyledInput
               type='email'
               name='email'
@@ -95,13 +94,13 @@ const Contact = () => {
             /><br/>
           </label><br/>
           <label>
-            <StyledLabel className='text-white font-medium mb-4'>Your Message</StyledLabel>
+            <StyledLabel >Your Message</StyledLabel>
             <StyledTextArea
               rows={7}
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say?'
+              placeholder='Leave a message'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label><br/>
