@@ -40,9 +40,9 @@ function Hero() {
           />
         </Typediv>
       </SectionText>
-      <div>
+      {/* <div>
         <Button onClick={openWhatsApp}> whatsapp </Button>
-      </div>
+      </div> */}
     </LeftSection>
   </Section>
 );
