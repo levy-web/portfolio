@@ -11,7 +11,7 @@ import styled from "styled-components"
 // `;
 
 export const StyledForm = styled.form`
-  background-color: #0f1624;
+  background-color: #212D45;
   padding: 20px;
   border-radius: 5px;
 `
