@@ -76,6 +76,7 @@ const Contact = () => {
             <StyledInput
               type='text'
               name='name'
+              required
               value={form.name}
               onChange={handleChange}
               placeholder="Enter your name?"
@@ -87,6 +88,7 @@ const Contact = () => {
             <StyledInput
               type='email'
               name='email'
+              required
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email address?"
@@ -101,6 +103,7 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder='Leave a message'
+              required
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label><br/>
