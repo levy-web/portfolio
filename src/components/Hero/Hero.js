@@ -14,7 +14,7 @@ function Hero() {
   };
 
  return(
-  <Section row nopadding>
+  <Section id="hero" row nopadding>
     <LeftSection>
       <SectionTitle main center>
         Hello, I'm <br/>
@@ -40,9 +40,9 @@ function Hero() {
           />
         </Typediv>
       </SectionText>
-      {/* <div>
+      <div>
         <Button onClick={openWhatsApp}> whatsapp </Button>
-      </div> */}
+      </div>
     </LeftSection>
   </Section>
 );

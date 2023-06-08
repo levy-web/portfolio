@@ -4,10 +4,9 @@ import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
-  <Section id='tech'>
-    <SectionDivider/>
+  <Section>
     <br/>
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle main>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range of technologies in the web application development world
       From Back-end to designs.

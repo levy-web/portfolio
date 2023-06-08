@@ -54,3 +54,8 @@ export const Li = styled.li`
   list-style-type: disc;
   margin-top:2px;
 `
+
+export const VerticalTimelineDiv = styled.div`
+  margin-top:20px;
+  margin-bottom:20px;
+`

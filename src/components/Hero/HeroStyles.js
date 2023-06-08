@@ -32,18 +32,17 @@ export const Button = styled.div`
   padding: 20px;
   text-align: center;
 
-  // @media ${(props) => props.theme.breakpoints.sm} {
-  //   border-radius: 25px;
-  //   color:#444;
-  //   background:#00FF00;;
-  //   cursor:pointer;
-  //   max-width: 200px;
-  //   padding: 20px;
-  //   text-align: center;
-  //   margin:auto;
-  //   margin-top:100px;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    border-radius: 25px;
+    color:#444;
+    background:#00FF00;;
+    cursor:pointer;
+    max-width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin:auto;
 
-  // }
+  }
 
 
 `

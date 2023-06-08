@@ -3,7 +3,7 @@ import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 
-import { styles, IconImg, IconDiv, Paragr, H3Title, Ul, Li } from './ExperienceStyles'
+import { VerticalTimelineDiv, IconImg, IconDiv, Paragr, H3Title, Ul, Li } from './ExperienceStyles'
 import { experiences } from '../../constants/constants'
 
 const ExperienceCard = ({experience}) => (
@@ -37,18 +37,19 @@ const ExperienceCard = ({experience}) => (
 
 const Experience = () => {
   return (
-    <Section>
-        <SectionTitle
+    <Section id='exp'>
+      <SectionDivider/>
+        <SectionTitle main
         >Work Experience. </SectionTitle>
 
-      <div className="mt-20 flex flex-col">
+      <VerticalTimelineDiv className="mt-20 flex flex-col">
         <VerticalTimeline>
           {experiences.map((experience, index)=>(
             <ExperienceCard key={index} experience={experience}/>
           ))}
         </VerticalTimeline>
 
-      </div>
+      </VerticalTimelineDiv>
     </Section>
   )
 }
