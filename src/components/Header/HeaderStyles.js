@@ -8,6 +8,10 @@ export const Container = styled.div`
   grid-column-gap: 2rem;
   padding: 1rem;
   padding-top: 2rem;
+  background:#0f1624;
+  z-index:1;
+  position: sticky; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
