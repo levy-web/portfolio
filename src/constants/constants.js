@@ -20,7 +20,7 @@ export const projects = [
     visit: 'https://trues-three.vercel.app',
   },
   {
-    id: 1,
+    id: 3,
     name: "Farmart",
     description:
       "Web application that enables users to filter animals by age and type for them to buy also allows farmers  add their animals for sale. Was a school project and I happened to be the scram master with a group of six individuals.",
@@ -28,6 +28,16 @@ export const projects = [
     image: "/images/jobit.png",
     source: "https://github.com/levy-web/farmart",
     visit: "https://farmart-delta.vercel.app",
+  },
+  {
+    id: 4,
+    name: "Tubanje",
+    description:
+      "Web chat application where you can create your username and you can create chat groups and add friends or collegues for fan and anonymous chats, only the creator of the group can add you to his chat group(the admin).",
+    tags: ["react", "chatengine", "bootstrap"],
+    image: "/images/tubanje.png",
+    source: "https://github.com/levy-web/git-github.com-levy-web-chat",
+    visit: "https://tubanje.vercel.app",
   },
 
 ];

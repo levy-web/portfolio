@@ -48,7 +48,7 @@ const Timeline = () => {
       
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      My name is Levy Muguro, and I am a focused and meticulous person who is enthusiastic about technology and finding solutions to problems. I have a proficient skill set in using Javascript, Python,  Ruby, Ruby on Rails, React and Databases. I enjoy working in high-pressure situations and collaborating with others to achieve common objectives. I'm always eager to learn new skills and to tackling new challenges and opportunities.
+      I am a focused and meticulous person who is enthusiastic about technology and finding solutions to problems. I have a proficient skill set in using Javascript, Python,  Ruby, Ruby on Rails, React and Databases. I enjoy solving solutions and collaborating with others to achieve common objectives. I'm always eager to learn new skills and to tackling new challenges and opportunities.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
