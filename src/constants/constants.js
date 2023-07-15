@@ -44,7 +44,7 @@ export const projects = [
 
 export const experiences = [
   {
-    title: "Volunteer Remote Internship",
+    title: "Volunteer Remote Javascript Internship",
     company_name: "Betr Beta, singapore",
     icon: '/company/betr.jpg',
     iconBg: "#383E56",
