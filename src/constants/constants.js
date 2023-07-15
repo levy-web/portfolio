@@ -44,6 +44,19 @@ export const projects = [
 
 export const experiences = [
   {
+    title: "Volunteer Remote Internship",
+    company_name: "Betr Beta, singapore",
+    icon: '/company/betr.jpg',
+    iconBg: "#383E56",
+    date: "July 3rd 2023 - Present",
+    points: [
+      "Building web application in react and Next13 or adding features to already built apps",
+      "Updating web application dependencies and solving bugs",
+      "Using Github, microsoft Trello and Teams ensuring smooth collaboration",
+      "Intergrating web applications with firebase database or migrating from Mongodb to firebase in already intergrated apps",
+    ],
+  },
+  {
     title: "Full-stack Software Engineer Bootcamp",
     company_name: "Moringa School, Nairobi, Kenya",
     icon: '/company/moringlogo.png',
@@ -75,7 +88,7 @@ export const experiences = [
 export const TimeLineData = [
   { year: 2023, text: 'Completed a full-stack software Engineering bootcamp at Moringa School', },
   { year: 2022, text: 'Founded NetBnk, provides It solutions and Internet Services', },
-  { year: 2021, text: 'Competed CCNA 2 & 3', },
+  { year: 2021, text: 'Compeleted CCNA 2 & 3', },
   { year: 2020, text: 'Ventured to Networking and Complted CCNA 1', },
-  { year: 2019, text: 'Completed my campus degree', },
+  { year: 2019, text: 'Completed my campus degree in Maths and Computer Science', },
 ];
