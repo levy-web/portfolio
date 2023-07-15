@@ -31,7 +31,7 @@ const Footer = () => {
         <AiFillLinkedin size="3rem"/>
       </SocialIcons>
 
-      <SocialIcons href='https://www.instagram.com/muguro_levy/'>
+      <SocialIcons href='https://www.instagram.com/_muguro/'>
         <AiFillInstagram size="3rem"/>
       </SocialIcons>
       </SocialContainer>
