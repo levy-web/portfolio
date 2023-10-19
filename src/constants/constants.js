@@ -64,7 +64,7 @@ export const projects = [
 
 export const experiences = [
   {
-    title: "Javascript Internship",
+    title: "Software Engineer Internship",
     company_name: "Italanta/Elewa",
     icon: '/company/italanta.png',
     iconBg: "#383E56",
