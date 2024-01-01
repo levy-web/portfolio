@@ -1,6 +1,16 @@
 export const projects = [
   {
     id: 0,
+    name: "elewa website",
+    description:
+      "This is elewa website official website application showcasing what they do and how to reach them. They play a crucial role of the Sustainable Development Goals (SDGs) by providing a global framework that ensures quality education and lifelong learning for all.",
+    tags: ["javascript", "angular", "materialUi", "CSS"],
+    image: "/images/elewa.png",
+    source: "https://github.com/italanta/elewa-website",
+    visit: "https://elewa.co.ke",
+  },
+  {
+    id: 1,
     name: "Salama Pay",
     description:
       "Web-application platform where you can deposit to your account and transfer funds to other users in the application based on certain conditions. Funds are first hold in an hold account until the condition is met and accepted by other party and funds are transfered to withdrawable wallet.",
@@ -10,7 +20,7 @@ export const projects = [
     visit: "https://salamapay.netlify.app",
   },
   {
-    id: 1,
+    id: 2,
     name: "Jessic",
     description:
       "Is a point of sale Web-application platform that manages and record sales that is downloaded to excel for more analysis. You can only be registered by an admin to be able to login",
@@ -20,7 +30,7 @@ export const projects = [
     visit: "jessic.vercel.app",
   },
   {
-    id: 2,
+    id: 3,
     name: "Sams Solution",
     description:
       "Web-application platform that sells safety equipment products and allows users to search, order via watsapp, and add a product to what they wish to buy, providing a convenient and efficient solution for shopping safety equipments.",
@@ -30,7 +40,7 @@ export const projects = [
     visit: "https://future-opal.vercel.app",
   },
   {
-    id: 3,
+    id: 4,
     name: "Trues Blog",
     description:
       "A web applicaton blog site with content management system that enables you add blogs, delete blogs and update blogs. Offers collaborative features in content writing by use of hygraph graghql for content management.",
@@ -40,7 +50,7 @@ export const projects = [
     visit: 'https://trues-three.vercel.app',
   },
   {
-    id: 4,
+    id: 5,
     name: "Farmart",
     description:
       "Web application that enables users to filter animals by age and type for them to buy also allows farmers  add their animals for sale. Was a school project and I happened to be the scram master with a group of six individuals.",
@@ -50,7 +60,7 @@ export const projects = [
     visit: "https://farmart-delta.vercel.app",
   },
   {
-    id: 5,
+    id: 6,
     name: "Tubanje",
     description:
       "Web chat application where you can create your username and you can create chat groups and add friends or collegues for fan and anonymous chats, only the creator of the group can add you to his chat group(the admin).",
@@ -70,9 +80,11 @@ export const experiences = [
     iconBg: "#383E56",
     date: "July 27th 2023 - Present",
     points: [
+      "Building a CLM web application to help modern ways of education 'https://github.com/italanta/elewa'",
       "Building web application in angular and node or adding features to already built apps",
-      "Updating web application dependencies and solving bugs",
+      "Updating web application user interfaces, dependencies and solving bugs identified in user experience",
       "working on open source issues using github ensuring smooth collaboration",
+      "Building serverless applications and hosting functions to firebase"
     ],
   },
   {
@@ -80,7 +92,7 @@ export const experiences = [
     company_name: "Betr Beta, singapore",
     icon: '/company/betr.jpg',
     iconBg: "#383E56",
-    date: "July 3rd 2023 - Present",
+    date: "July 3rd 2023 - October 26th 2023",
     points: [
       "Building web application in react and Next13 or adding features to already built apps",
       "Updating web application dependencies and solving bugs",

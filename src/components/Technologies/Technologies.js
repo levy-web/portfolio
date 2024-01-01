@@ -17,7 +17,7 @@ const Technologies = () =>  (
         <ListTitle>Front-End</ListTitle>
         <ListParagraph>
           Experience with <br/>
-          Javascript, React, APIs, <br/> Css and html
+          Javascript, React, Nextjs, Angular, APIs, <br/> Css and html
         </ListParagraph>
       </ListItem>
       <ListItem>

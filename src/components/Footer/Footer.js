@@ -20,7 +20,7 @@ const Footer = () => {
       </LinkList> */}
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Ensure Best Practices and Getting it Done.</Slogan>
+          <Slogan>Ensure Industry Best Practices and Quaility in the Services provided.</Slogan>
         </CompanyContainer>
         <SocialContainer>
         <SocialIcons href='https://github.com/levy-web'>

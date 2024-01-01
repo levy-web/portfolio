@@ -28,7 +28,7 @@ function Hero() {
         <Typed
             strings={[
               "Javascript and frameworks.",
-              "Reactjs.",
+              "Reactjs, Nextjs and Angular.",
               "Python.",
               "Ruby and ruby on rails.",
               "restful APIs.",
